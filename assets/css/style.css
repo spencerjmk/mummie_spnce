@@ -36,14 +36,29 @@ main h1{
 
 }
 
+
 main p{
   margin-top: 2rem;
   font-family: "League Spartan", sans-serif;
   text-align: justify;
 }
+
+span{
+  padding-top: .4rem;
+  padding-left: .2rem;
+  margin-right: .4rem;
+  border-top: .2rem solid var(--yell);
+  border-left: .2rem solid var(--yell);
+  font-size: 2rem;
+  float: left;
+  font-weight: 600;
+}
  
 footer .son{
   font-family: "Lavishly Yours", sans-serif;
+  font-weight: 600;
+  word-spacing: .2rem;
+  font-size: 1.5rem;
 }
 marquee{
   margin-top: 2rem;
