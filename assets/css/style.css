@@ -21,14 +21,34 @@ body{
 main{
   padding: 2rem;
 }
+footer{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: right;
+  font-family: "madimi one", sans-serif;
+}
 
 main h1{
   text-align: center;
   font-size: 2.5rem;
   font-family: "madimi one", sans-serif;
   font-weight: 700;
+
 }
 
 main p{
+  margin-top: 2rem;
   font-family: "League Spartan", sans-serif;
+  text-align: justify;
 }
+ 
+footer .son{
+  font-family: "Lavishly Yours", sans-serif;
+}
+marquee{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: var(--yell);
+  color: white;
+}
+
