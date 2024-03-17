@@ -1,0 +1,34 @@
+/* developer: Awawu Bakare */
+/* project:  */
+/* Date: 17th, March 2024 */
+
+:root{
+  --bgc: hsl(0, 0%, 95%);
+  --yell: hsl(36, 99%, 54%);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: var(--bgc);
+  background-image: url(../images/bg-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+main{
+  padding: 2rem;
+}
+
+main h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "madimi one", sans-serif;
+  font-weight: 700;
+}
+
+main p{
+  font-family: "League Spartan", sans-serif;
+}
